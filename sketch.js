@@ -24,7 +24,7 @@ function setup(){
     sling4 = new Sling(ball4.body, {x:318,y:167});
     sling5 = new Sling(ball5.body, {x:368,y:167});
      
-    roof = new Roof(268,167,250,40);
+   
 }
 function draw(){
     background(0);
@@ -44,7 +44,7 @@ function draw(){
     sling4.show();
     sling5.show();
 
-    roof.show();
+   
 
 
 }
